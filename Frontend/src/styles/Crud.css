@@ -1,0 +1,165 @@
+.H1_DIV_HD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(6, 6, 58);
+    height: 15vh;
+}
+.H1_DIV_HD_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.CRUD_FRM_DIV{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.CRUD_FRM_DIV_FORM{
+    border-radius: 10px;
+    background-color: rgb(170,170,170);
+    display: flex;
+    flex-direction: column;
+}
+.FRM_DIV_FORM_IMG{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.FRM_IMG_LBL{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.FRM_LBL{
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.FRM_IP{
+    margin: 5px;
+    outline: none;
+    border: none;
+    height: 30px;
+    font-size: 13px;
+}
+.FRM_DATE{
+    width: 97%;
+}
+.FRM_TXT_IP{
+    margin: 5px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    resize: none;
+}
+.FRM_BTN{
+    margin: 5px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    background-color: rgb(6, 6, 58);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.DIV_LIST_DATA_D{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    height: 52vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: scroll;
+    margin-bottom: 100px;
+}
+.DIV_LIST_DATA_D_LST{
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.DIV_LIST_DATA_D_LST_NMB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DIV_LIST_DATA_D_LST_N{
+    margin-left: 10PX;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(6, 6, 58);
+}
+.DIV_LIST_DATA_D_LST_BTN{
+    margin-right: 10PX;
+    border: none;
+    outline: none;
+    background: none;
+}
+.USER_INFO{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.USER_INFO1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 5px;
+}
+.USER_INFO1_P{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    margin: 5px;
+    font-size: 13px;
+}
+.USER_INFO2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.USER_INFO3{
+    margin: 5px;
+}
+.USER_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    background-color: rgb(6, 6, 58);
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    margin: 5px;
+}
+@media screen and (max-width: 768px){
+    .USER_INFO{
+        grid-template-columns: repeat(1,1fr);
+    }    
+}
+@media screen and (max-width: 500px){
+    .CRUD_FRM_DIV_FORM{
+        width: 100%;
+    }
+}
